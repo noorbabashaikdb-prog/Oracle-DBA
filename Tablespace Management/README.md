@@ -31,40 +31,6 @@ Physical database files such as **datafiles** and **tempfiles** are associated w
  Datafiles Datafiles Datafiles
 ```
 
-Oracle documentation:
-https://docs.oracle.com/en/database/oracle/oracle-database/19/admin/managing-tablespaces.html
-
----
-
-# 📂 Directory Structure
-
-```text
-tablespace-management/
-│
-├── README.md
-│
-├── 01_tablespace_theory.md
-├── 02_tablespace_creation.sql
-├── 03_tablespace_monitoring.sql
-├── 04_tablespace_resize_add_datafile.sql
-├── 05_temp_undo_management.sql
-├── 06_quota_management.sql
-├── 07_space_troubleshooting.sql
-├── 08_large_segments.sql
-├── 09_asm_tablespaces.sql
-├── 10_readonly_offline_tablespaces.sql
-├── 11_tablespace_backup_recovery.sql
-├── 12_tablespace_interview_scenarios.md
-└── diagrams/
-    ├── tablespace_architecture.png
-    ├── tablespace_storage_flow.png
-    ├── temp_undo_architecture.png
-    ├── tablespace_full_troubleshooting.png
-    └── asm_tablespace.png
-```
-
----
-
 # 1. Tablespace Architecture
 
 The Oracle storage hierarchy can be represented as:
